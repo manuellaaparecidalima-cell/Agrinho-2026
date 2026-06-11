@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoCultivo | Agricultura Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Eco<span>Cultivo</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><button id="btn-contato">Contato</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Cultivando o Futuro da Terra</h1>
+            <p>Descubra como a agricultura sustentável protege o meio ambiente, fortalece comunidades e garante alimentos saudáveis para as próximas gerações.</p>
+            <a href="#pilares" class="btn-principal">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="pilares-section">
+        <div class="container">
+            <h2>Os Três Pilares da Sustentabilidade</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>🌱 Ambiental</h3>
+                    <p>Preservação da biodiversidade, rotação de culturas, conservação do solo e uso racional da água através de tecnologias limpas.</p>
+                </div>
+                <div class="card">
+                    <h3>🤝 Social</h3>
+                    <p>Valorização do trabalhador do campo, apoio às comunidades locais e garantia de segurança alimentar para a sociedade.</p>
+                </div>
+                <div class="card">
+                    <h3>📈 Econômico</h3>
+                    <p>Modelos de negócios agrícolas que são lucrativos a longo prazo, reduzindo o desperdício e a dependência de insumos químicos caros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="modal-contato" class="modal">
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <h2>Fale Conosco</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required placeholder="Seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required placeholder="Seu melhor e-mail">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" required placeholder="Como podemos ajudar?"></textarea>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 EcoCultivo. Cultivando um amanhã melhor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
